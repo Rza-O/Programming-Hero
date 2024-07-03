@@ -1,0 +1,10 @@
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hello{
+    background-color: aquamarine;
+    margin: 20px 10px 10px;
+    padding: 20px 30px 40px;
+    border-radius: 30px;
+}
