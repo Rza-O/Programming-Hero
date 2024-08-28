@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Work Sans;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Style starts here */
+.banner-container{
+    max-width: 1600px;
+    height: 808px;
+    border: 2px solid red;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content{
+    margin-right: 230px;
+}
+
+.banner-header-text{
+    width: 525px;
+    height: 228px;
+    color: rgb(21, 20, 20);
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.header-paragraph{
+    width: 494px;
+    height: 78px;
+    color: rgb(68, 67, 67);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    margin-left: 33px;
+}
+
+.banner-content > button{
+    width: 160px;
+    height: 64px;
+    margin-left: 370px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(241, 91, 34);
+    border: none;
+    
+}
+
+/* Failure year style here */
